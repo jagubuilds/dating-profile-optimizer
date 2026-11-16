@@ -13,13 +13,13 @@ Work in short rounds. Ask a numbered batch of questions, give your recommended a
 
 1. **Set the goal first.** Ask: *most matches overall, or most matches with people you'd actually date?* This changes everything downstream - volume means broad appeal and wide filters; "right people" means sharper, more specific copy that filters some people out. Also get: which app(s), their age and the age range they want, city size, what they're looking for (serious / casual / open), what's going wrong (few likes, matches that don't reply, wrong type of match, conversations that die), and whether they pay for a premium tier.
 
-2. **Get the real profile.** Best input is a screen recording of the profile scrolled top to bottom, plus a recording of the settings and the app's prompt list. If you have a shell, run `scripts/extract_frames.sh <video>` to turn a recording into contact sheets you can read. Remind them to crop or blur surnames, workplaces and other people's faces if they're uneasy.
+2. **Get the real profile.** Best input is a screen recording of the profile scrolled top to bottom, plus a recording of the settings and the app's prompt list. If you have a shell, run `bash scripts/extract_frames.sh <video>` to turn a recording into contact sheets you can read. Remind them to crop or blur surnames, workplaces and other people's faces if they're uneasy.
 
 3. **Audit** - photos, then text, then settings. Lead with what works. Use a table: field, what's there now, verdict (✅/⚠️/❌), why. See `references/photos.md` for the photo rubric.
 
 4. **Gather material** before writing copy. Ask 3-4 discovery questions at a time (what they did last weekend, something they irrationally love or hate, what friends tease them about, a small thing they're weirdly good at, travel, sports, food opinions). If they won't share much, write from what's visible in their photos and listed interests - and mark every line that needs to be true.
 
-5. **Write copy** - always several options per slot, a recommended pick, and the reasoning. Check every answer against the app's character limit with `scripts/char_count.py` (or by counting) and show the count. See `references/copy.md`.
+5. **Write copy** - always several options per slot, a recommended pick, and the reasoning. Check every answer against the app's character limit with `python3 scripts/char_count.py` (or by counting) and show the count. See `references/copy.md`.
 
 6. **Settings and habits** - see `references/apps.md` for per-app mechanics. Behaviour often matters as much as the profile: daily activity, commenting on likes, replying fast, messaging first where allowed.
 

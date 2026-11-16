@@ -4,9 +4,9 @@ Turns Claude into a dating-profile coach for Hinge, Bumble, Tinder, The League a
 
 ## Install
 
-**Claude.ai / Claude desktop app:** Settings → Capabilities → Skills → Upload skill → choose this zip.
+**Claude.ai / Claude desktop app:** On this repo page click **Code → Download ZIP**, then in Claude go to Settings → Capabilities → Skills → Upload skill and choose that zip.
 
-**Claude Code:** unzip into `~/.claude/skills/` so you have `~/.claude/skills/dating-profile-optimizer/SKILL.md`.
+**Claude Code:** unzip it into `~/.claude/skills/` and rename the folder to `dating-profile-optimizer`, so you have `~/.claude/skills/dating-profile-optimizer/SKILL.md`.
 
 ## Use
 
