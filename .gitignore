@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Your profile recordings and the frames made from them (photos of you and other people)
+profile_frames/
+*.mp4
+*.mov
+*.m4v
